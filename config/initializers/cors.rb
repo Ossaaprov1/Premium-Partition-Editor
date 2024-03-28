@@ -8,7 +8,7 @@
  Rails.application.config.middleware.insert_before 0, Rack::Cors do
    allow do
     # Ip Address of website
-     origins "example.com"
+     origins "http://127.0.0.1:5173"
 
      resource "*",
        headers: :any,

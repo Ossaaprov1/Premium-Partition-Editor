@@ -1,6 +1,5 @@
-import { useState } from 'react'
-import './App.css'
-import PostsList from "./Features/PostsList"
+import './App.css';
+import PostsList from "./Features/Posts/PostsList";
 
 function App() {
 
@@ -9,7 +8,7 @@ function App() {
     <h1>PPE</h1>
     <p>Premium Partition Editor</p>
     </div>
-    <PostsList/>
+    <PostsList />
   </>;
 }
 
